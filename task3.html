@@ -45,9 +45,49 @@
     p.bbb#test, p.xxx#test{
       background-color: coral;
     }
-    .fff{
+    .fff * {
       background-color: darkorange;
     }
+    p.fff *{
+      background-color: dodgerblue;
+    }
+    p.fff {
+      background-color: greenyellow;
+    }
+    .fff .bbb  {
+      background-color: deeppink;
+    }
+    .fff h2.bbb{
+      background-color: darkolivegreen;
+    }
+    #test a:link,
+    #test a:visited {
+      text-decoration: none;
+      color:red;
+    }
+
+    #test a:hover {
+      text-decoration: underline;
+      color: lightblue;
+    }
+    a.www:link,
+    a.www:visited {
+      text-decoration: underline;
+      color: lightblue;
+    }
+    a.www:hover {
+      text-decoration: none;
+    }
+    #test a.www:link,
+    #test a.www:visited,
+    #test a.www:hover,
+    #test a.www:active {
+      color: hotpink;
+    }
+    .eee a.www {
+      color: gold;
+    }
+
   </style>
 </head>
 <body>
@@ -66,6 +106,15 @@
   <h2 class="xxx"> Задание 12 </h2>
   <p class="xxx" id="test"> Задание 13</p>
   <p class="fff"> Задание 14</p>
+  <p class="fff"> Задание 15</p>
+  <p class="fff"> Задание 16</p>
+  <p class="fff"> Задание 17</p>
+  <h2 class="bbb" class="fff"> Задание 18 </h2>
+  <a href="#" id="test" > Задание 19 </a>
+  <a href="#" class="www" > Задание 20 </a>
+  <a href="#" class="www" id="test" > Задание 21 </a>
+  <a href="#" class="eee" class="www"> Задание 22 </a>
+  <p></p>
 </div>
 
 
