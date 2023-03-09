@@ -87,7 +87,41 @@
     .eee a.www {
       color: gold;
     }
+    p > i {
+      color: #00ff00;
+    }
 
+    ul > li {
+      background-color: #fff221;
+    }
+
+    p > a, a#test {
+      text-decoration: wavy;
+    }
+
+    i + b {
+      opacity: 50%;
+    }
+
+    #test b + i {
+      cursor: help;
+    }
+
+    ul + p {
+      text-shadow: none;
+    }
+
+    h1 ~ p {
+      direction: rtl;
+    }
+
+    #test h2 ~ p {    /* Задание 30) */
+      will-change: auto;
+    }
+
+    p * i {       /* Задание 31 */
+      color: tomato;
+    }
   </style>
 </head>
 <body>
@@ -114,6 +148,17 @@
   <a href="#" class="www" > Задание 20 </a>
   <a href="#" class="www" id="test" > Задание 21 </a>
   <a href="#" class="eee" class="www"> Задание 22 </a>
+  <p>Зада<i>ние</i>23</p>
+  <i>Зада<b>ние</b>27</i>
+  <ul>
+    <p>Задание28</p>
+    <li>Задание24</li>
+  </ul>
+  <p>Зада<a href="#">ние2</a>5</p>
+  <a href="#" id="test">Задание25</a>
+  <i>Зада<b>ние</b>26</i>
+  <h1></h1>
+  <p>Задание29</p>
 </div>
 
 
